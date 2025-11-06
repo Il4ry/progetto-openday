@@ -1,4 +1,4 @@
-import {CuboRubik} from './cubo.js'
+import { CuboRubik } from './cubo.js'
 
 const cubo = new CuboRubik();
 
@@ -56,3 +56,8 @@ function inizializzaCubo3D() {
         renderer.setSize(width, height);
     });
 }
+
+window.addEventListener('DOMContentLoaded', () => {
+    inizializzaCubo3D();
+    console.log('✅ Cubo di Rubik inizializzato!');
+});
