@@ -1,4 +1,4 @@
-class Cubo{
+export class CuboRubik{
      constructor() {
          this.reset();
      }
